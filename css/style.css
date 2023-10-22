@@ -205,7 +205,7 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
    
 }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 769px) and (max-width: 1024px) {
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-next {
         transform: translateX(25%);
@@ -320,6 +320,30 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
     }
 
     button.control-arma-next {
+        margin-right: -2rem;
+    }
+
+    button.control-servico-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-servico-next {
+        margin-right: -2rem;
+    }
+
+    button.control-mercado-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-mercado-next {
+        margin-right: -2rem;
+    }
+
+    button.control-marketing-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-marketing-next {
         margin-right: -2rem;
     }
 

@@ -315,6 +315,14 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
         margin-right: -2rem;
     }
 
+    button.control-arma-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-arma-next {
+        margin-right: -2rem;
+    }
+
     .logo-competicao, .astronauta {
         width: 70vmin;
     }

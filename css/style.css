@@ -205,7 +205,7 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
    
 }
 
-@media(min-width: 769px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width: 1024px) {
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-next {
         transform: translateX(25%);

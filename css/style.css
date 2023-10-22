@@ -308,11 +308,11 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
     }
 
     button.control-hardware-prev {
-        margin-left: -3.5rem;
+        margin-left: -2rem;
     }
 
     button.control-hardware-next {
-        margin-right: -3.2rem;
+        margin-right: -2rem;
     }
 
     .logo-competicao, .astronauta {

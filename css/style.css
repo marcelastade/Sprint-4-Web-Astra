@@ -1,0 +1,521 @@
+:root {
+    --color-light: #EBE6E4;
+    --color-dark: #292727;
+    --font-primary: Dosis;
+}
+
+
+.text-dark { 
+    color: var(--color-dark)!important;
+}
+
+.text-light { 
+    color: var(--color-light)!important;
+}
+
+
+body {
+    background-color: #EBE6E4;
+    font-family: var(--font-primary);
+}
+
+.navbar-collapse {
+    padding: 1rem 1rem;
+    z-index: 1;
+}
+
+.background-nav {
+    background-color: #292727;
+}
+
+.font-nav {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #EBE6E4;
+}
+
+.navbar-toggler, .dropdown-toggle{
+    color: #EBE6E4;
+}
+
+.dropdown-menu, .dropdown-item{
+    background-color: var(--color-dark);
+}
+
+.dropdown-item:hover{
+    background-color: var(--color-dark);
+    color: #f3efed;
+}
+
+h1 {
+    font-weight: 600!important;
+}
+
+
+.navbar-nav .nav-link.active, .nav-link.show {
+    color: #f3efed!important;
+}
+
+.container-ini {
+    background-color: #292727;
+    height: 80vh;
+}
+
+#containerini{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-image: url(../assets/fundo.gif);
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+    background-color: var(--color-dark);
+    color: var(--color-light);  
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-light {
+    padding: 2rem;
+    background-color: var(--color-light);
+    border-radius: 1rem;
+}
+
+.container-light-ratio {
+    padding: 1.5rem;
+    background-color: var(--color-light);
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ratio-height {
+    height: 42vh;
+}
+
+.img-logo-competicao, .img-astronauta, .img-contato, .img-investimento {
+    width: 58vmin;
+}
+
+.container-dark {
+    background-color: var(--color-dark); 
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container-dark-footer {
+    background-color: var(--color-dark); 
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.container-dark-equipe{
+    background-color: var(--color-dark); 
+    padding-top: 1rem;   
+}
+
+
+.container-logo {
+   margin-top: -15rem;
+}
+
+.text-ini {
+    width: 50%;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.btn-primary-dark {
+    background-color: var(--color-dark);
+    border: none;
+}
+
+.btn-primary-dark:hover {
+    background-color: #3d3b3b;
+    border: none;
+}
+
+.btn-primary-dark:active {
+    background-color: #3d3b3b;
+    border: none;
+}
+
+.btn-primary-light {
+    background-color: var(--color-light);
+    border: none;
+}
+
+.btn-primary-light:hover {
+    background-color: #f3efed;
+    border: none;
+}
+
+.btn-primary-light:active {
+    background-color: #f3efed;
+    border: none;
+}
+
+.font-nav:hover {
+    color: #f3efed;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+    justify-content: center;
+}
+
+.card-carousel {
+    margin: 2rem;
+    border: 4px solid #292727;
+    border-radius: 0.7rem;
+}
+
+.carousel-img {
+    border-radius: 0.7rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none;
+}
+
+.prev-mercado, .prev-depoimento {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.next-mercado, .next-depoimento {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
+    font-size: 2.2rem;
+    color: var(--color-dark);
+}
+
+.accordion-button{
+    background-color: var(--color-dark);
+    color: var(--color-light)!important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-dark);
+    color: var(--color-light)!important;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-body, .accordion-item {
+    background-color: var(--color-light);
+    border: none;
+}
+
+.form-control {
+    background-color: var(--color-dark);
+}
+
+.form-control:focus {
+    background-color: var(--color-dark);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+}
+
+.dropdown-menu.show {
+    margin-left: -10rem;
+}
+
+.body-senha {
+    background-image: url(../assets/fundo.gif);
+   
+}
+
+.container-logo-senha {
+    margin-top: 11rem;
+    margin-bottom: 5rem;
+}
+
+.logo-senha {
+    margin-bottom: 4rem;
+}
+
+
+#password::placeholder, #user::placeholder, #nome1::placeholder, #nome2::placeholder, #email1::placeholder, #email2::placeholder, #telefone::placeholder {
+    color: var(--color-light);
+    opacity: 0.5;
+}
+
+@media (min-width: 1025px) and (max-width: 1324px){
+    button.control-hardware-prev {
+        margin-left: -4rem;
+    }
+
+    button.control-hardware-next {
+        margin-right: -4rem;
+    }
+   
+}
+
+@media (min-width: 1024px){
+    .investimento, .evento, .robo, .videos, .passo1, .passo2, .passo3, .passo4, .passo5 {
+        height: 80vh
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+    .carousel-inner .galeria-item>div {
+        display: none;
+    }
+
+    .carousel-inner .hardware-item>div {
+        display: none;
+    }
+
+    .carousel-inner .arma-item>div {
+        display: none;
+    }
+
+    .carousel-inner .servico-item>div {
+        display: none;
+    }
+
+    .carousel-inner .marketing-item>div {
+        display: none;
+    }
+
+    .carousel-inner .mercado-item>div {
+        display: none;
+    }
+
+    .carousel-inner .mercado-item>div {
+        display: none;
+    }
+
+    .carousel-inner .depoimento-item>div {
+        display: none;
+    }
+
+    .carousel-inner .depoimento-item>div {
+        display: none;
+    }
+    
+    
+    .carousel-inner .hardware-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .hardware-item>div:nth-child(2){
+        display: block;
+    }
+
+    .carousel-inner .galeria-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .galeria-item>div:nth-child(2){
+        display: block;
+    }
+
+    .carousel-inner .servico-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .servico-item>div:nth-child(2){
+        display: block;
+    }
+
+    .carousel-inner .mercado-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .mercado-item>div:nth-child(2){
+        display: block;
+    }
+
+    .carousel-inner .marketing-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .marketing-item>div:nth-child(2){
+        display: block;
+    }
+
+    .carousel-inner .depoimento-item>div:nth-child(1){
+        display: block;
+    }
+
+    .carousel-inner .depoimento-item>div:nth-child(2){
+        display: block;
+    }
+    
+    .carousel-inner .arma-item>div:nth-child(1){
+        display: block;
+    }
+
+    div.col-md-3 {
+        width: 42%;
+    }
+
+    button.control-hardware-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-hardware-next {
+        margin-right: -2rem;
+    }
+
+    button.control-servico-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-servico-next {
+        margin-right: -2rem;
+    }
+
+    button.control-marketing-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-marketing-next {
+        margin-right: -2rem;
+    }
+
+    button.control-mercado-next {
+        margin-right: -2rem;
+    }
+
+    button.control-mercado-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-depoimento-next {
+        margin-right: -2rem;
+    }
+
+    button.control-depoimento-prev {
+        margin-left: -2rem;
+    }
+    
+    .figure-logo-competicao, .figure-astronauta, .figure-contato, .figure-investimento, .figure-investidor, .figure-compras, .figure-personalize, .figure-montagem, .figure-codigo, .figure-conexao {
+        width: 50vmin;
+    }
+    
+}
+
+.carousel-inner .carousel-item-end, 
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child{
+        display: block;
+    }
+
+    button.control-hardware-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-hardware-next {
+        margin-right: -2rem;
+    }
+
+    button.control-arma-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-arma-next {
+        margin-right: -2rem;
+    }
+
+    button.control-servico-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-servico-next {
+        margin-right: -2rem;
+    }
+
+    button.control-mercado-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-mercado-next {
+        margin-right: -2rem;
+    }
+
+    button.control-depoimento-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-depoimento-next {
+        margin-right: -2rem;
+    }
+
+
+    button.control-marketing-prev {
+        margin-left: -2rem;
+    }
+
+    button.control-marketing-next {
+        margin-right: -2rem;
+    }
+
+    .img-logo-competicao, .astronauta, .img-investimento, .img-contato, .img-investidor .img-compras, .img-personalize, .img-montagem, .img-codigo, .img-conexao {
+        width: 70vmin;
+    }
+
+    .text-ini {
+        width: 70%;
+    }
+
+    .dropdown-home.show {
+        margin-left: -3.5rem !important;
+        border: none !important;
+        margin-top: 2.5rem;
+    }
+
+    .dropdown-mercado.show {
+        border: none !important;
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    button.carousel-control-prev {
+        margin-left: -2rem;
+    }
+
+    button.carousel-control-next {
+        margin-right: -2rem;
+    }
+
+    .img-investimento, .img-logo-competicao, .img-contato, .img-compras, .img-montagem, .img-conexao {
+        margin-top: 2rem;
+    }   
+
+    .img-astronauta, .img-investidor,  .img-personalize, .img-codigo {
+        margin-bottom: 2rem;
+    }
+}
+

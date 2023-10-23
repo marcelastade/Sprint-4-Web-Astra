@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Luna</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- BS Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Chamada da CSS do BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Minha CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>       
+    <header>
+        <!-- menu principal -->
+        <nav class="navbar navbar-expand-lg background-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-2">
+                        <div class="d-flex">
+                            <a class="nav-link font-nav" href="index.html">
+                                HOME
+                            </a>
+                            <a class="nav-link dropdown-toggle font-nav" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a>
+                            <li class="nav-item dropdown nav-item me-2">
+                                <ul class="dropdown-menu dropdown-home">
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#evento">O EVENTO</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#robo">O ROBÔ</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#galeria">GALERIA</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#hardware">HARDWARE</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#arma">ARMA</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#videos">VÍDEOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-nav dropdown-item" href="#contato">CONTATO</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="#equipe">EQUIPE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <div class="d-flex">
+                            <a class="nav-link font-nav" href="plano-de-mercado.html">
+                                PLANO DE MERCADO
+                            </a>
+                            <a class="nav-link dropdown-toggle font-nav me-2" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a>
+                            <li class="nav-item dropdown nav-item me-2">
+                                <ul class="dropdown-menu dropdown-mercado">
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="plano-de-mercado.html#servicos">NOSSOS SERVIÇOS</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="plano-de-mercado.html#mercado">MERCADO</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="plano-de-mercado.html#marketing">MARKETING DIGITAL</a>
+                                    </li>
+                                </ul>
+                            </li> 
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <div class="d-flex">
+                            <a class="nav-link font-nav" href="senha.html">
+                                SEJA UM INVESTIDOR
+                            </a> 
+                            <a class="nav-link dropdown-toggle font-nav me-2" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a>
+                            <li class="nav-item dropdown nav-item me-2">
+                                <ul class="dropdown-menu dropdown-mercado">
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="senha.html">INVISTA DA ASTRA</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="senha.html">DEPOIMENTOS</a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link font-nav dropdown-item" href="senha.html">SEJA UM INVESTIDOR</a>
+                                    </li>
+                                </ul>
+                            </li>                        
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <div class="d-flex">
+                            <a class="nav-link font-nav" href="manual.html">
+                                MANUAL DE INSTRUÇÕES
+                            </a>                                              
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="containerini">
+        <figure class="container-logo d-flex justify-content-center">
+            <img class='logo ' src="./assets/logo.png" alt="Nome Luna com uma lua em cima da letra u">
+        </figure>
+        <p class="text-ini lead col-md-12 d-flex justify-content-center">
+            Venha conhecer a Luna, um robô desenvolvido pela empresa Astra, inspirado no universo, para conclusão do 1º ano do curso de Sistemas de Informação na 
+            Faculdade de Informática e Administração Paulista (FIAP)
+        </p>
+    </div>
+
+    <main class="container-fluid">
+        <section class="container-light row align-items-center justify-content-evenly evento" id="evento">
+            <div class="text-center col-md-5">
+                <h1 class="display-3 text-dark">O EVENTO</h1>
+                <p class="lead my-5 text-dark">
+                    A Robocup é a competição mais antiga da FIAP, onde alunos dos 1ºs anos de Sistemas de Informação constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário 
+                    carrega. Aqueles alunos que vencem a Robocup vão para o NEXT, um Festival de Tecnologia e Inovação que, além da final da Robocup, apresenta diversas inovações feitas pelos próprios alunos da FIAP, como drones, conteúdos para VR devices, aplicativos mobiles e muito mais </p>
+                <a href="https://www.fiap.com.br/next/" target="_blank" class="btn p-3 btn-primary-dark btn-lg text-light">SAIBA MAIS <i 
+                    class="bi bi-moon-fill ms-2"></i></a>
+            </div>
+            <figure class="col-md-4 d-flex justify-content-center figure-logo-competicao ">
+                <img class="img-fluid img-logo-competicao" src="./assets/logo_competicao.svg" alt="Logo Robocup e NEXT separadas por uma linha">
+            </figure>
+        </section>
+
+        <section class="container-dark row align-items-center justify-content-evenly robo" id="robo">
+            <figure class="col-md-4 d-flex justify-content-center figure-astronauta ">
+                <img class="img-fluid img-astronauta" src="./assets/astronauta.svg" alt="Astronauta">
+            </figure>
+            <div class="text-center col-md-5">
+                <h1 class="display-3 text-light">O ROBÔ</h1>
+                <p class="lead my-5 text-light">
+                    A Luna surgiu a partir da união da paixão das alunas pelo universo e a proposta de desenvolvimento de um robô para Robocup. 
+                    Ela possui duas bases: a inferior, que conta com as rodas e todo o hardware necessário para seu funcionamento, e a base superior, 
+                    que é pintada à mão e conta com 38 LEDS que representam as estrelas do universo, além de sustentar suas duas armas que representam a Lua
+                </p>
+                <a href="https://www.youtube.com/watch?v=qgi3CSP08Ok" target="_blank" class="btn p-3 btn-primary-light btn-lg text-dark">SAIBA MAIS <i 
+                    class="bi bi-moon-fill ms-2"></i></a>
+            </div>
+        </section>
+
+        <section id="galeria" class="container-light row">
+            <h1 class="text-center display-3 text-dark">GALERIAS</h1>
+            <div class="carousel galeria" data-bs-ride="carousel" id="carouselExample">
+                <div class="carousel-inner">
+                    <div class="carousel-item galeria-item active">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna1.jpeg" alt="Base de baixo da Luna vista de cima">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna2.jpeg" alt="Base de baixo da Luna vista de frente">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna3.jpeg" alt="Base de baixo da Luna vista de cima">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna_cima.jpeg" alt="Luna pronta vista de cima">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna_frente.jpeg" alt="Luna pronta vista de frente">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna_cima_2.jpeg" alt="Luna pronta vista de cima">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna_esq.jpeg" alt="Luna pronta vista do lado esquerdo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item galeria-item">
+                        <div class="col-md-3">
+                            <div class="card-carousel">
+                                <img class="img-fluid carousel-img" src="./assets/luna_dir.jpeg" alt="Luna pronta vista do lado direito">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <i class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                  </button> 
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <i class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+            </div>     
+        </section>
+
+        <section class="container-dark row align-items-center justify-content-evenly videos" id="videos">
+            <h1 class="text-center display-3 text-light">VÍDEOS</h1>
+            <div class="col-lg-5 container-light-ratio">
+                <div class="ratio ratio-16x9 rounded">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U3gWcSKG1pI?si=2EkWn_FZE6H6Vlty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                </div>  
+            </div>
+            <div class="col-lg-5 container-light-ratio">
+                <div class="ratio ratio-16x9 rounded">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K6Et7lJehoE?si=ZCAT1fM6tp3lQTUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 mb-5 row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded" id="hardware">
+                  <h2 class="accordion-header mb-3">
+                    <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      HARDWARE
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body mt-5 mb-5">
+                        <div class="carousel hardware" data-bs-ride="carousel" id="carouselExample2">
+                            <div class="carousel-inner">
+                                <div class="carousel-item hardware-item active">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/arduino.png" class="card-img-top img-fluid" alt="Foto do arduino MEGA 2560">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                ARDUINO MEGA 2560
+                                            </h5>
+                                          <p class="card-text">A placa Arduino MEGA 2560 foi utilizada para armazenar todo o código de movimentação do robô, acionamento da arma e para programar as cores do LED</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/motor_amarelo.png" class="card-img-top img-fluid"alt="Foto do motor amarelo dc 3-6v">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                MOTOR DC 3-6V
+                                            </h5>
+                                          <p class="card-text">Foram utilizados quatro motores do tipo DC 3-6V, sendo dois deles para a movimentação das rodas e dois para a movimentação das armas</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 20rem;">
+                                        <img src="./assets/shield.png" class="card-img-top img-fluid" alt="Foto de um driver de motor">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                DRIVER DE MOTOR
+                                            </h5>
+                                          <p class="card-text">Foram utilizados dois drivers de motor, sendo um deles para a movimentação das rodas e um para a movimentação das armas</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/bluetooth.png" class="card-img-top img-fluid" alt="Foto de um bluetooth HC-5">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                BLUETOOTH HC-5
+                                            </h5>
+                                          <p class="card-text">O Bluetooth foi utilizado para estabelecer a conexão do robô com um celular, que é utilizado para controlar o robô</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/soquete.png" class="card-img-top img-fluid" alt="Foto de um soquete para 6 pilhas">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                SOQUETE DE PILHA
+                                            </h5>
+                                        <p class="card-text">O soquete de pilhas foi utilizado para alimentar os drivers de movimentação, tanto das rodas, como da arma</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/roda_boba.png" class="card-img-top img-fluid" alt="Foto de uma roda boba">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                RODA BOBA
+                                            </h5>
+                                        <p class="card-text">Uma roda boba foi colocada na ponta da base inferior do robô para ajudar em seu direcionamento e controle</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/roda.png" class="card-img-top img-fluid" alt="Foto de duas rodas que são encaixadas no motor d 3-6v">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                RODAS
+                                            </h5>
+                                        <p class="card-text">Foram utilizadas duas rodas para a movimentação do robô, cada uma conectada em um motor do tipo DC 3-6V</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/led.png" class="card-img-top img-fluid" alt="Foto de uma fita de led endereável">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                LED ENDEREÇÁVEL
+                                            </h5>
+                                        <p class="card-text">No total, foram utilizados 76 LEDS, sendo 38 para iluminar a base superior do robô, e 38, para iluminar a base inferior</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/alavanca.png" class="card-img-top img-fluid" alt="Foto de uma chave alavanca para ligar e desligar o robô">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                CHAVE ALAVANCA
+                                            </h5>
+                                        <p class="card-text">A chave alavanca foi utilizada para ligar e desligar o robô</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/fim_de_curso.png" class="card-img-top img-fluid" alt="Foto de uma chave de fim de curso">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                CHAVE FIM DE CURSO
+                                            </h5>
+                                        <p class="card-text">No total, utilizamos 6 chaves de fim de curso, que foram colocadas ao redor da base inferior, servindo como sensores para realizar o acionamento da arma</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hardware-item">
+                                    <div class="card ms-3 me-3 col-md-3 container-dark text-light" style="width: 19rem;">
+                                        <img src="./assets/jumpers.png" class="card-img-top img-fluid" alt="Foto de um conjunto de jumpers tipo macho macho">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                JUMPERS MM E MF
+                                            </h5>
+                                        <p class="card-text">Os jumpers MM e MF foram utilizados para realizar a ligação entre o arduino e os drivers de motor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              <button class="carousel-control-next control-hardware-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                <i class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></i>
+                                <span class="visually-hidden">Next</span>
+                              </button> 
+                              <button class="carousel-control-prev control-hardware-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                <i class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></i>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                        </div>   
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded" id="arma">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ARMA
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body mt-5">
+                        <div class="carousel arma" data-bs-ride="carousel" id="carouselExample3">
+                            <div class="carousel-inner">
+                                <div class="carousel-item arma-item active">
+                                    <div class="card ms-3 me-3 col-md-2 container-dark text-light" style="width: 30rem;">
+                                        <img src="./assets/projeto_arma.svg" class="card-img-top img-fluid" alt="Foto do projeto da arma feito pelas alunas, que conta com um palito e uma bola espetada em sua ponta">
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                O PROJETO
+                                            </h5>
+                                          <p class="card-text">A arma foi projetada para possuir 30cm de comprimento e 45cm quando acionada. Ela conta com conta com um palito e uma bola com alfinetes espetada em sua ponta</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item arma-item">
+                                    <div class="card ms-3 me-3 col-md-2 container-dark text-light" style="width: 30rem;">
+                                        <div class="container-light-ratio">
+                                            <div class="ratio ratio-16x9 rounded">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/YUcqF70PZVg?si=JCztdpNswLlnbHfi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                            </div>  
+                                        </div>                                        
+                                        <div class="card-body">
+                                            <h5 class="mt-3 mb-3">
+                                                FUNCIONAMENTO
+                                            </h5>
+                                          <p class="card-text">Confira no vídeo acima, a arma funcionando assim que acionada pelos sensores</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              <button class="carousel-control-next control-arma-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                <i class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></i>
+                                <span class="visually-hidden">Next</span>
+                              </button> 
+                              <button class="carousel-control-prev control-arma-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                <i class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></i>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                        </div>                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section> 
+        
+        <section class="container-light row align-items-center justify-content-evenly contato" id="contato">
+            <div class="text-center col-lg-5  container-dark">
+                <h1 class="display-5 text-light">CONTATO</h1>
+                <form class="ms-4 mb-5 me-4 text-start">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label text-light text-start">NOME</label>
+                      <input type="text" placeholder="NOME" class="form-control text-light" id="nome1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label text-light">TELEFONE</label>
+                      <input type="text" placeholder="TELEFONE" class="form-control text-light" id="telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-light">E-MAIL</label>
+                        <input type="email" placeholder="E-MAIL" class="form-control text-light" id="email1">
+                    </div>
+                </form>
+                <button type="submit" class="btn mb-3 p-3 btn-primary-light btn-lg text-dark">ENVIAR <i 
+                    class="bi bi-moon-fill ms-2"></i></button>
+            </div>
+            <figure class="col-md-4 d-flex justify-content-center figure-contato">
+                <img class="img-fluid img-contato" src="./assets/contato.svg" alt="Ilustração de uma mulher preenchendo um formulário de contato pelo computador">
+            </figure>
+        </section>
+
+        <section class="container-dark row align-items-center justify-content-evenly" id="equipe">
+            <h1 class="text-center display-3 text-light">EQUIPE</h1>
+            <div class="col-lg-4 container-light-ratio">
+                <figure class="d-flex justify-content-center align-items-center">
+                    <img class="equipe img-fluid" src="./assets/marcela.png" alt="Ilustração de uma mulher preenchendo um formulário de contato pelo computador">
+                </figure> 
+                <div class="container-dark-equipe rounded p-2">
+                    <p class="text-light text-center mb-0">
+                        MARCELA STADE CARVALHO
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 container-light-ratio">
+                <figure class="d-flex justify-content-center align-items-center">
+                    <img class="equipe img-fluid" src="./assets/amanda.png" alt="Ilustração de uma mulher preenchendo um formulário de contato pelo computador">
+                </figure> 
+                <div class="container-dark-equipe rounded p-2">
+                    <p class="text-light text-center mb-0">
+                        AMANDA DANTAS DE SOUZA
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-dark-footer row align-items-center justify-content-center mt-5" id="contato">
+            <p class="text-light text-center text-wrap" style="width: 6rem;">
+                ASTRA
+                2023©
+            </p>
+        </section>
+    </main>
+
+     <!-- Chamada JS do BS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        var items = document.querySelectorAll('.galeria .galeria-item');
+        items.forEach((e)=>{
+            const slide = 2;
+            let next = e.nextElementSibling;
+            for(var i=0; i<slide; i++) {
+                if(!next) {
+                    next = items[0]
+                }
+                let clonechild = next.cloneNode(true);
+                e.appendChild(clonechild.children[0]);
+                next = next.nextElementSibling;
+            }
+        })
+    </script>
+
+    <script>
+        var items = document.querySelectorAll('.hardware .hardware-item');
+        items.forEach((e)=>{
+            const slide = 2;
+            let next = e.nextElementSibling;
+            for(var i=0; i<slide; i++) {
+                if(!next) {
+                    next = items[0]
+                }
+                let clonechild = next.cloneNode(true);
+                e.appendChild(clonechild.children[0]);
+                next = next.nextElementSibling;
+            }
+        })
+    </script>
+
+    <script>
+        var items = document.querySelectorAll('.arma .arma-item');
+        items.forEach((e)=>{
+            const slide = 1;
+            let next = e.nextElementSibling;
+            for(var i=0; i<slide; i++) {
+                if(!next) {
+                    next = items[0]
+                }
+                let clonechild = next.cloneNode(true);
+                e.appendChild(clonechild.children[0]);
+                next = next.nextElementSibling;
+            }
+        })
+    </script>
+</body>

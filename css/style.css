@@ -250,6 +250,12 @@ i.carousel-control-next-icon::before, i.carousel-control-prev-icon::before {
     opacity: 0.5;
 }
 
+@media (min-width: 1200px){
+    .investimento, .evento, .robo, .videos, .passo1, .passo2, .passo3, .passo4, .passo5 {
+        height: 80vh;
+    }
+}
+
 @media (min-width: 1025px) and (max-width: 1324px){
     button.control-hardware-prev {
         margin-left: -4rem;
